@@ -4,6 +4,8 @@
 
 ![同屏教学](docs/shots/side-by-side.png)
 
+<sub>**English:** a DeepSeek Harness plugin that turns a typed ODE system into a live 2D phase portrait or a rotatable 3D trajectory — in the sidebar, side by side with the chat, and drivable by the model through three agent tools (`ode_lab_snapshot` / `ode_lab_set` / `ode_lab_presets`).</sub>
+
 > 左边讲课、右边看图：会话里问一句「读一下面板里的系统」，模型就把当前方程、参数、取值范围读回来讲解。
 
 ## 功能
