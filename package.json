@@ -1,0 +1,55 @@
+{
+  "name": "dsh-ode-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Type an ODE system and watch its multi-dimensional evolution — phase portraits and rotating 3D trajectories, live in a DSH sidebar panel.",
+  "type": "module",
+  "main": "index.js",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": "*"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DNZJSJ/dsh-odestudyplug.git"
+  },
+  "homepage": "https://github.com/DNZJSJ/dsh-odestudyplug#readme",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "ode",
+    "differential-equations",
+    "phase-portrait",
+    "chaos",
+    "visualization"
+  ],
+  "author": "DNZJSJ"
+}

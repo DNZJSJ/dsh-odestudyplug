@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "title": "ODE Evolution Lab",
+    "description": "Type a system of ordinary differential equations and watch its multi-dimensional evolution as a live phase portrait or a rotating 3D trajectory."
+  },
+  "title": "ODE Evolution Lab",
+  "subtitle": "Type a system, watch the flow",
+  "equations": "Equations",
+  "parameters": "Parameters",
+  "initial": "Initial state",
+  "horizon": "Time span",
+  "samples": "Samples",
+  "projection": "Projection",
+  "mode2d": "2D",
+  "mode3d": "3D",
+  "presets": "Presets",
+  "play": "Play",
+  "pause": "Pause",
+  "resetView": "Reset view",
+  "apply": "Run",
+  "error": "Cannot integrate",
+  "hint": "One equation per line; dx/dt = 10*(y-x), dy/dx = x^2 + y^2 and y' = y all work. Parameters go above as a = 10.",
+  "drag": "Drag to rotate · scroll to zoom · double-click to reset",
+  "noData": "No trajectory yet",
+  "timeLabel": "t",
+  "preset.lorenz": "Lorenz",
+  "preset.rossler": "Rössler",
+  "preset.lotka": "Lotka–Volterra",
+  "preset.pendulum": "Damped pendulum",
+  "preset.oscillator": "Harmonic oscillator",
+  "preset.vanDerPol": "Van der Pol",
+  "exportSpeed": "Speed"
+}

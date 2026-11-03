@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "title": "微分方程演化实验室",
+    "description": "输入常微分方程组，在侧栏面板中实时查看它的多维演化：二维相图，或可旋转的三维轨迹。"
+  },
+  "title": "微分方程演化",
+  "subtitle": "输入方程组，观察流的演化",
+  "equations": "方程组",
+  "parameters": "参数",
+  "initial": "初始状态",
+  "horizon": "时间跨度",
+  "samples": "采样点",
+  "projection": "投影",
+  "mode2d": "二维",
+  "mode3d": "三维",
+  "presets": "预设",
+  "play": "播放",
+  "pause": "暂停",
+  "resetView": "重置视角",
+  "apply": "运行",
+  "error": "无法积分",
+  "hint": "每行一个方程，三种写法都认：dx/dt = 10*(y-x) 、dy/dx = x^2 + y^2 、y' = y。参数写在上面，如 a = 10。",
+  "drag": "拖拽旋转 · 滚轮缩放 · 双击重置",
+  "noData": "还没有轨迹",
+  "timeLabel": "t",
+  "preset.lorenz": "洛伦兹吸引子",
+  "preset.rossler": "罗斯勒吸引子",
+  "preset.lotka": "洛特卡–沃尔泰拉",
+  "preset.pendulum": "阻尼摆",
+  "preset.oscillator": "谐振子",
+  "preset.vanDerPol": "范德波尔振子",
+  "exportSpeed": "速度"
+}
